@@ -29,7 +29,7 @@ SKIP_ATARI_MESSAGE = ''
 try:
   # pylint: disable=g-import-not-at-top
   from acme.wrappers import gym_wrapper
-  import gym
+  import gymnasium as gym
   # pylint: enable=g-import-not-at-top
 except ModuleNotFoundError:
   SKIP_GYM_TESTS = True
