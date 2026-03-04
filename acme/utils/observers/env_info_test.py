@@ -16,7 +16,7 @@
 
 from acme.utils.observers import env_info
 from acme.wrappers import gym_wrapper
-import gym
+import gymnasium as gym
 from gym import spaces
 import numpy as np
 
